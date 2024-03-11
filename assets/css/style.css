@@ -2138,6 +2138,126 @@ section {
   color: #bedae8;
   font-size: 14px;
 }
+/* External CSS Code for Get Involved Section */
+
+.get-involved-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #F3F8FA; /* Secondary color */
+
+}
+
+.get-involved-section h3 {
+  color: #1E4356; /* Primary color */
+}
+
+.get-involved-description {
+  color: #1E4356;
+  margin-bottom: 20px;
+}
+
+/* Styling for Volunteering Section */
+.volunteering-section,
+.membership-section,
+.donation-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #1E4356; /* Primary color */
+  border-radius: 8px;
+  background-color: #F3F8FA; /* Secondary color */
+}
+
+.volunteering-section h4,
+.membership-section h4,
+.donation-section h4 {
+  color: #1E4356;
+}
+
+/* Styling for Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1E4356; /* Primary color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff; /* Slightly darker shade for hover effect */
+}
+
+/* ===================================== Gallery Style ================================== */
+
+.gallery-filter {
+  width: 100%;
+  text-align: center;
+}
+
+.gallery-filter .btn {
+  background-color: #1E4356; /* Updated primary brand color */
+  color: #FFF; /* Updated text color for buttons */
+}
+
+.gallery {
+  padding: 50px;
+  background-color: #F3F8FA; /* Updated secondary brand color */
+}
+@media screen and (max-width: 940px) {
+  .gallery {
+    padding: 30px 10px;
+  }
+}
+
+.gallery-title {
+  font-size: 36px;
+  color: #1E4356; /* Updated primary brand color */
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #1E4356; /* Updated primary brand color */
+}
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #1E4356; /* Updated primary brand color */
+  border-radius: 5px;
+  text-align: center;
+  color: #1E4356; /* Updated primary brand color */
+  margin-bottom: 30px;
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #1E4356; /* Updated primary brand color */
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+  background-color: #1E4356; /* Updated primary brand color */
+}
+
+.btn-default:active .filter-button:active {
+  background-color: #1E4356; /* Updated primary brand color */
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
